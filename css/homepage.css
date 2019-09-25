@@ -1,0 +1,145 @@
+/*footer should be fixed at bottom only,start filling district by district..css can be done later as well*/
+
+html{
+	font-family: Calibri,Arial,Times New Roman,Verdana;
+	background-color: #AAEEBB;
+	font-size: 18px;
+}
+header{
+	background-color: #228B22;
+	color: white;
+	padding: 10px;
+	font-weight: 900;
+}
+nav{
+	overflow: auto; /*if content too big,will automatically set scroll bar..other options are: visible,hidden,scroll*/
+	background-color: #AABBFF;
+	margin: 10px 0px 10px 0px;
+}
+
+nav a{
+	float: left;
+	padding: 5px;
+	margin-left: 10px;
+}
+.dropdown{
+	background-color: #AABBFF;
+	color:white;
+	float: left;
+	padding: 5px;
+	display: block;
+	margin-left: 10px;
+}
+#district-dropdown,#places-dropdown{
+	display: none; /*by default*/
+	position: absolute; /* specifies the type of positioning method used for an element....position: static|absolute|fixed|relative|sticky|initial|inherit;*/
+	background-color: #AACCFF;
+	box-shadow: inset; /*box-shadow property attaches one or more shadows to an element. box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit;*/
+}
+#district-dropdown a,#places-dropdown a{
+	float: none;
+	display: block;
+	margin-left: -4px;
+}
+
+
+.dropdown:hover #district-dropdown,.dropdown:hover #places-dropdown{
+	margin-top: 5px;
+	display: block;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+	background-color: #AAEEBB;
+	color: green;
+}
+
+footer{
+	background-color: #AEAEAE;
+}
+
+aside{
+	background-color: #BB0033;
+}
+article{
+	padding: 10px;
+}
+section{
+	padding: 2px;
+	line-height: 1.5rem;
+	color: green;
+}
+section:hover{
+	color: #334499;
+	background-color: #ABCDEF;
+	border: 1px solid blue;
+}
+
+/*homepage css*/
+#intro-section{
+	padding-top: 0px;
+	padding-bottom: 20px;
+	margin-left: 270px;
+}
+#location-section{
+	padding-top: 0px;
+	margin-right: 300px;
+}
+#quick-facts-section{
+	padding-top: 0px;
+	margin-right: 50px;
+}
+#stats-section{
+	padding-top: 0px;
+	margin-right: 270px;
+	margin-left: 700px;
+}
+/*end of homepage css*/
+
+
+
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	border-radius: 30px;
+}
+
+/*homepage images*/
+#homepage-prashar{
+	display: inline;
+	margin-bottom: -200px;
+	margin-right: auto;
+	margin-left: auto;
+	border-radius: 0px;
+}
+#homepage-india-map{
+	display: inline;
+	margin-left:1025px;
+	margin-top: -150px;
+}
+.stacked{
+	display: inline;
+	margin-right:200px;
+}
+/*end of homepage images*/
+
+/*lists css*/
+#places-page-list{
+}
+#places-page-list li:hover{
+	background-color: #AAEEBB;
+	color: green;
+}
+
+/*places page css*/
+#places-page-main-div{
+	padding: 5px;
+}
+details{
+	margin: 10px;
+}
